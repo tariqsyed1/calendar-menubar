@@ -11,7 +11,9 @@ app.once('ready', () => {
 
   // Create a new tray
   tray = new Tray(path.join(__dirname, '/assets/electron-icon.png'))
-  tray.on('right-click', toggleWindow)
+  tray.on('right-click', function (event) {
+    app.quit();
+  })
   tray.on('double-click', toggleWindow)
   tray.on('click', function (event) {
     toggleWindow()
