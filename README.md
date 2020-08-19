@@ -1,5 +1,6 @@
 
 # Calendar
+![](/assets/ss.png)
 
 A simple macOS tray application to show a dynamically rendered calendar in the menu bar. Useful for getting a quick peek at the days of the month.
 
