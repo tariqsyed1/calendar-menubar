@@ -1,5 +1,5 @@
 
-# Calendar
+# Menu Bar Calendar
 ![](/assets/ss.png)
 
 A simple macOS tray application to show a dynamically rendered calendar in the menu bar. Useful for getting a quick peek at the days of the month.
@@ -7,7 +7,7 @@ A simple macOS tray application to show a dynamically rendered calendar in the m
 ## Getting started
 - Install [Node LTS](https://nodejs.org)
 - Clone this repository
-- `cd calendar-menubar
+- `cd calendar-menubar` to change to the correct directory
 - `npm install` to install the application's dependencies
 - `npm start` to start the application
 - `rs` to restart the application after making changes
